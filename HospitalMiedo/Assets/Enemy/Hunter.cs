@@ -215,12 +215,40 @@ public class TeleportingHunter : MonoBehaviour
 
     void HandleStaticEffect(float distanceToPlayer)
     {
-        if (staticObject == null) return;
-
-        bool shouldActivate = distanceToPlayer <= staticActivationRange;
-        if (staticObject.activeSelf != shouldActivate)
-            staticObject.SetActive(shouldActivate);
+        if (player == null) return;
+    
+        VRPlayerHealth health = player.GetComponent<VRPlayerHealth>();
+        if (health == null) return;
+    
+        bool inStaticRange = distanceToPlayer <= staticActivationRange;
+        bool inDetectionRange = distanceToPlayer <= detectionRange;
+    
+        // --------------------------------------------
+        // ESTÁTICA (solo en rango pequeño)
+        // --------------------------------------------
+        if (staticObject != null)
+            staticObject.SetActive(inStaticRange);
+    
+        // --------------------------------------------
+        // DAÑO SEGÚN EL RANGO
+        // --------------------------------------------
+        if (inStaticRange)
+        {
+            // Daño fuerte: 3 por intervalo
+            health.ApplyDamage(3);
+        }
+        else if (inDetectionRange)
+        {
+            // Daño leve: 1 por intervalo
+            health.ApplyDamage(1);
+        }
+        else
+        {
+            // Si el jugador está fuera de ambos rangos → NO recibe daño
+            health.StopDamage();
+        }
     }
+
 
     // ================================
     // ---   GIZMOS VISUALES (debug) ---

@@ -1,9 +1,12 @@
 {
   "dependencies": {
     "com.unity.ai.navigation": "2.0.9",
+    "com.unity.feature.vr": "1.0.1",
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.render-pipelines.high-definition": "17.0.4",
+    "com.unity.xr.hands": "1.7.2",
     "com.unity.xr.management": "4.5.3",
+    "com.unity.xr.meta-openxr": "2.3.0",
     "com.unity.xr.oculus": "4.5.2",
     "com.unity.xr.openxr": "1.15.1",
     "com.unity.modules.accessibility": "1.0.0",
