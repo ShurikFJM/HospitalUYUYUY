@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5dae3f54-111c-4b9a-9985-a1ca0816e965}">
+		<property name="assetPath">
+			<value>ENEMIGO/Arrastrando cuerpo.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.5359999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26347614-545a-484d-b44b-7a9a6d34e97f}</destination>
+		</relationship>
+	</object>
+</objects>
