@@ -87,7 +87,10 @@
 	<object class="MixerBusPanner" id="{14ffb436-100b-4ae8-99df-871c2a445d42}" />
 	<object class="SingleSound" id="{72521571-958a-4684-9cc3-4f2148cf806d}">
 		<property name="length">
-			<value>5.7208163265306125</value>
+			<value>5.1208163265306137</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.60000000000000009</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{79b9b41b-84b0-4e65-84fc-d85d245fd08d}</destination>
