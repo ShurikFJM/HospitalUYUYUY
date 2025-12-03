@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{e7e41e8d-9cf9-41c0-b657-a199ccca8342}">
+		<property name="assetPath">
+			<value>ACCIONES JUGADOR/Respiración.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.192</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26347614-545a-484d-b44b-7a9a6d34e97f}</destination>
+		</relationship>
+	</object>
+</objects>

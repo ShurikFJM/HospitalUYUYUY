@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{15c9570c-6d53-4126-a725-d5724e03f5e7}">
+		<property name="assetPath">
+			<value>ACCIONES JUGADOR/Pasos Agua.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>52.847999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26347614-545a-484d-b44b-7a9a6d34e97f}</destination>
+		</relationship>
+	</object>
+</objects>

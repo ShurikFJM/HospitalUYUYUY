@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{948c76a9-2a4e-4e92-bd1a-5eccfc2ea418}">
+		<property name="assetPath">
+			<value>ACCIONES JUGADOR/Respiración Asustado.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.6310204081632653</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26347614-545a-484d-b44b-7a9a6d34e97f}</destination>
+		</relationship>
+	</object>
+</objects>
