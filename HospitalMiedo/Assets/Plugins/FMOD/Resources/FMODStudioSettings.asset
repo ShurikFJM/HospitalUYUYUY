@@ -380,8 +380,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../../Documents/fmod/Examples/Examples.fspro
-  sourceBankPath: ../../../../Documents/fmod/Examples/Build
+  sourceProjectPath: HOSPITALUYUYUY/HOSPITALUYUYUY.fspro
+  sourceBankPath: HOSPITALUYUYUY/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -417,7 +417,7 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131849
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131849
   Platforms:
   - {fileID: -9187532086999245989}

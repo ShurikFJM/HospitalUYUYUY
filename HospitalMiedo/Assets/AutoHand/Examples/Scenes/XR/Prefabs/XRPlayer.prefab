@@ -8341,7 +8341,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7942002211881670212}
   - component: {fileID: 7942002211881670239}
-  - component: {fileID: 7942002211881670209}
   - component: {fileID: 7942002211881670210}
   - component: {fileID: 7942002211881670211}
   - component: {fileID: 8700862639769451446}
@@ -8419,14 +8418,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7942002211881670209
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7942002211881670213}
-  m_Enabled: 1
 --- !u!114 &7942002211881670210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9173,6 +9164,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6162809413267167199}
     m_Modifications:
+    - target: {fileID: 165222652473334800, guid: 386242486c5972145be957989b61c7df, type: 3}
+      propertyPath: OnGrab.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 165222652473334800, guid: 386242486c5972145be957989b61c7df, type: 3}
+      propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 165222653978168724, guid: 386242486c5972145be957989b61c7df, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -9733,7 +9732,9 @@ PrefabInstance:
       propertyPath: followPositionOffset.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1305530554600226291, guid: 386242486c5972145be957989b61c7df, type: 3}
+    - {fileID: 165222654096874931, guid: 386242486c5972145be957989b61c7df, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1224213067510249571, guid: 386242486c5972145be957989b61c7df, type: 3}
@@ -10248,7 +10249,9 @@ PrefabInstance:
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9100094654249455996, guid: 393566584cd7aae4e92c16be3dd85bae, type: 3}
+    - {fileID: 8169818818758025370, guid: 393566584cd7aae4e92c16be3dd85bae, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10543,6 +10546,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6162809413267167199}
     m_Modifications:
+    - target: {fileID: 165222652473334800, guid: 386242486c5972145be957989b61c7df, type: 3}
+      propertyPath: OnGrab.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 165222652473334800, guid: 386242486c5972145be957989b61c7df, type: 3}
+      propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 165222653978168724, guid: 386242486c5972145be957989b61c7df, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -11103,7 +11114,9 @@ PrefabInstance:
       propertyPath: followPositionOffset.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1305530554600226291, guid: 386242486c5972145be957989b61c7df, type: 3}
+    - {fileID: 165222654096874931, guid: 386242486c5972145be957989b61c7df, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1224213067510249571, guid: 386242486c5972145be957989b61c7df, type: 3}
@@ -11434,7 +11447,9 @@ PrefabInstance:
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8169818818758025370, guid: 56ead9dc16628174989544076e2522d7, type: 3}
+    - {fileID: 9100094654249455996, guid: 56ead9dc16628174989544076e2522d7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4537506675607233264, guid: 56ead9dc16628174989544076e2522d7, type: 3}
